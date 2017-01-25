@@ -6,7 +6,7 @@
 
 #All the queries have to be written in the SparkseeQuery.groovy file itself.
 
-../gremlin-groovy/bin/gremlin.sh -e ../groovy_scripts/SparkseeQuery.groovy $2 $3 $1 >> $4
+../../gremlin-groovy/bin/gremlin.sh -e ../groovy_scripts/SparkseeQuery.groovy $2 $3 $1 >> $4
 
 # Example Run
 # ./SparkseeQuery.sh 5 ./HelloWorld.gdb ../gremlin-groovy-2.6.0/data/graph-example-2.xml logs.txt

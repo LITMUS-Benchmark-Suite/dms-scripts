@@ -8,5 +8,5 @@ fi
 
 wget "http://www.tinkerpop.com/downloads/gremlin/gremlin-groovy-2.2.0.zip"
 unzip gremlin-groovy-2.2.0.zip
-mv gremlin-groovy-2.2.0 gremlin-groovy
+mv gremlin-groovy-2.2.0 ../gremlin-groovy
 
