@@ -12,5 +12,5 @@ do
 done
 
 # Example Run
-# ./SparkseeLoad.sh 5 ./HelloWorld.gdb ../gremlin-groovy-2.6.0/data/graph-example-2.xml logs.txt
+# ./SparkseeLoad.sh 5 ./HelloWorld.gdb ../../gremlin-groovy/data/graph-example-2.xml logs.txt
 
