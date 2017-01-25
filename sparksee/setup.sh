@@ -5,8 +5,9 @@ else
     sudo apt-get install unzip
 fi
 
-
-wget "http://www.tinkerpop.com/downloads/gremlin/gremlin-groovy-2.2.0.zip"
-unzip gremlin-groovy-2.2.0.zip
-mv gremlin-groovy-2.2.0 ../gremlin-groovy
+if [ ! -d ../gremlin-groovy ]; then
+	wget "http://www.tinkerpop.com/downloads/gremlin/gremlin-groovy-2.2.0.zip"
+	unzip gremlin-groovy-2.2.0.zip
+	mv gremlin-groovy-2.2.0 ../gremlin-groovy
+fi
 
