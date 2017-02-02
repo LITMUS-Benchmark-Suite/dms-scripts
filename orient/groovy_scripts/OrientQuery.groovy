@@ -1,12 +1,13 @@
 
 println "===============Loading the Graph Model============"
 loadModel = System.currentTimeMillis()
-x = new OrientGraph("plocal:"+args[0])
+x = new OrientGraph("memory:"+args[0])
+x.loadGraphML(args[1])
 println "Time taken to load the graph Model:" + (System.currentTimeMillis() - loadModel)
 println "===============Graph Model Loaded============"
 
 
-no_of_times = Integer.parseInt(args[1])
+no_of_times = Integer.parseInt(args[2])
 println "==============Starting to Run The Queries=========="
 for (i in 1..no_of_times) {
 	println "################Run "+i+"##################"
