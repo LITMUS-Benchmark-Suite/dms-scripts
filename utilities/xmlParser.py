@@ -26,12 +26,12 @@ def initiateFile(filehandler):
 	filehandler.write('<key id="price" for="node" attr.name="price" attr.type="float"/>\n')
 	filehandler.write('<key id="Delivery Days" for="node" attr.name="Delivery Days" attr.type="int"/>\n')
 	filehandler.write('<key id="mbox_sha1sum" for="node" attr.name="mbox_sha1sum" attr.type="string"/>\n')
-	filehandler.write('<key id="rating_0" for="node" attr.name="Rating 0" attr.type="int"/>\n')
-	filehandler.write('<key id="rating_1" for="node" attr.name="Rating 1" attr.type="int"/>\n')
-	filehandler.write('<key id="rating_2" for="node" attr.name="Rating 2" attr.type="int"/>\n')
-	filehandler.write('<key id="rating_3" for="node" attr.name="Rating 3" attr.type="int"/>\n')
-	filehandler.write('<key id="rating_4" for="node" attr.name="Rating 4" attr.type="int"/>\n')
-	filehandler.write('<key id="rating_5" for="node" attr.name="Rating 5" attr.type="int"/>\n')
+	filehandler.write('<key id="rating_0" for="node" attr.name="Rating_0" attr.type="int"/>\n')
+	filehandler.write('<key id="rating_1" for="node" attr.name="Rating_1" attr.type="int"/>\n')
+	filehandler.write('<key id="rating_2" for="node" attr.name="Rating_2" attr.type="int"/>\n')
+	filehandler.write('<key id="rating_3" for="node" attr.name="Rating_3" attr.type="int"/>\n')
+	filehandler.write('<key id="rating_4" for="node" attr.name="Rating_4" attr.type="int"/>\n')
+	filehandler.write('<key id="rating_5" for="node" attr.name="Rating_5" attr.type="int"/>\n')
 
 	filehandler.write('\t<graph id="G" edgedefault="directed">\n')	
 
