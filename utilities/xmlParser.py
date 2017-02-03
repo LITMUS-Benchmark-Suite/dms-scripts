@@ -33,7 +33,7 @@ def initiateFile(filehandler):
 	filehandler.write('<key id="rating_4" for="node" attr.name="Rating_4" attr.type="int"/>\n')
 	filehandler.write('<key id="rating_5" for="node" attr.name="Rating_5" attr.type="int"/>\n')
 
-	filehandler.write('\t<graph id="G" edgedefault="directed">\n')	
+	filehandler.write('\t<graph id="G" edgedefault="undirected">\n')	
 
 
 def endFile(filehandler):
