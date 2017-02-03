@@ -141,7 +141,7 @@ Correct Usage Is
 python /path/to/file/savd.txt /path/to/file/watdiv.nt outputfile
 """
 if __name__ == "__main__":
-	if len(sys.argv)!=3:
+	if len(sys.argv)!=4:
 		print(USAGE)
 		sys.exit(-1)
 	foo(sys.argv[1], sys.argv[2], sys.argv[3])
