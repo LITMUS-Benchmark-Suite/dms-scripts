@@ -9,12 +9,12 @@ The two datasets are:
 * [Waterloo SPARQL Diversity Test Suite](http://dsg.uwaterloo.ca/watdiv/#dataset)
 
 ### BSBM ###
-The BSBM dataset is genereate using the data generator which is provided as a part of [BSBM tools](https://sourceforge.net/projects/bsbmtools/) .
+The BSBM dataset is generated using the data generator which is provided as a part of [BSBM tools](https://sourceforge.net/projects/bsbmtools/) .
 Installing the BSBM tools package is a  really straigforward process. You only have to extract it and start using the shellscript with a few arguments. 
 I ran this command to generate the dataset.
 
 ```bash
-./generate -s xml -fc -pc 100 -fn /path/where/the/xml/file/should/be/generated
+./generate -s xml -fc -pc 100 -fn /path/to/xml/file
 ```
 
 The script converts the dataset generated in an XML to the GraphML format using the [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) module in Python.
