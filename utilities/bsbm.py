@@ -255,14 +255,14 @@ def foo(filename, graphMLFileName, logger):
 
 
 if __name__ == "__main__":
-	logging.basicConfig(filename = "logging.log", level = logging.INFO)
+	logging.basicConfig(filename = "BSBM.log", level = logging.INFO)
 	logger = logging.getLogger(__name__)
 	USAGE="""
 INCORRECT USAGE
 There are three arguments. 
 The first is the path of the XML file which is generated using BSBM tools.
 The second is the path of the GraphML file, which needs to be created when this code is run.
-python xmlParser.py /path/to/xml/file /path/to/graphml/file
+python bsbm.py /path/to/xml/file /path/to/graphml/file
 	"""	
 	if len(sys.argv)!=3:
 		print(USAGE)
